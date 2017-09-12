@@ -7,28 +7,28 @@ stroke(255,255);
 //draw square in the middle
 rect(175,175,350,350);
 // fill of first circle
-fill (90,255,230);
+fill (90,255,230,150);
 stroke(0,0);
 //draw first circle
-ellipse(262.5,262.5,175,175);
+ellipse(262.5,262.5,250,250);
 //fill and stroke of second circle 
-fill(180,0,255);
+fill(180,0,255,130);
 stroke(0,0);
 //draw second circle 
 ellipse(437.5,262.5,175,175);
 //insert 4th circle here
 //fill and stroke of 4th circle 
-fill(230,255,45);
+fill(230,255,45,100);
 stroke(0,0);
 //draw fourth circle 
 ellipse(437.5,437.5,250,250);
 //fill and stroke of third circle 
-fill(255,0,130);
+fill(255,0,130,100);
 stroke(0,0);
 //draw third circle 
 ellipse(350,350,175,175);
 //fill and stroke of 5th circle
-fill(255,195,43);
+fill(255,195,43,150);
 stroke(0,0);
 //draw fifth circle 
 ellipse(262.5,420,150,150);
