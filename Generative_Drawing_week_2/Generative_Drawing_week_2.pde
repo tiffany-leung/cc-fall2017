@@ -1,6 +1,6 @@
 //set colour and size of canvas
 size(700,700);
-background (120,230,50);
+background (120,180,50);
 //change fill of the square
 fill(255,200);
 stroke(255,255);
