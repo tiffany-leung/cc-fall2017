@@ -1,6 +1,6 @@
+import gifAnimation.*;
 //variables
 PImage fireball;
-PImage fireball2;
 PImage gif;
 PImage Uranus;
 PImage Saturn;
@@ -59,8 +59,7 @@ void setup () {
   x2 = 800;
   y2 = 
   //space images
-  fireball = loadImage("fireball.png");
-  fireball2 = loadImage("fireball2.png");
+  fireball = loadImage("giphy.gif");
   gif = loadImage("rainbowstar.gif");
   Uranus = loadImage ("Uranus.png");
   Saturn = loadImage ("Saturn.png");
@@ -179,13 +178,6 @@ void draw() {
     if (BallX < 0) {
       BallX = width;
     }
-    
-    //insert fireball2 image
-    image(fireball2, BallXi, BallYi, 200, 200);
-    //make fireball2 move 
-    BallXi = BallXi - SpeedXi;
-    if (BallXi < 0) {
-      BallXi = width;
     }
     //insert tunnel Image 
     noStroke();
@@ -195,9 +187,7 @@ void draw() {
     rect (950,380,70,230);
     //star cursor
     image(gif, mouseX, mouseY, 50, 50);
-   
   }
-}
 
 //change ball colour
 void keyPressed () {
